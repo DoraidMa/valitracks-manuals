@@ -9,8 +9,8 @@ lang:''
 Slide390:{
 lb:'',
 id:390,
-from:11414,
-to:11503,
+from:12275,
+to:12364,
 iols:0,
 i360qs:false,
 sdu:3,
@@ -229770,10 +229770,10 @@ uid:26789,
 dn:'Slide26789',
 visible:'1'
 },
-StAd3:{
-from:11504,
-to:22607,
-src:'ar/StAd2.mp3',
+StAd5:{
+from:12365,
+to:23468,
+src:'ar/StAd4.mp3',
 du:372400,
 saup:[{
 sn:517,
@@ -230866,7 +230866,7 @@ dsType:1,
 dsWidth:80
 }
 ,
-slideAudios:'StAd3',
+slideAudios:'StAd5',
 vestr:0,
 vim:0,
 slides:'Slide517,Slide600,Slide673,Slide717,Slide768,Slide841,Slide885,Slide958,Slide1006,Slide1079,Slide1123,Slide1167,Slide1218,Slide1291,Slide1364,Slide5165,Slide6274,Slide6787,Slide6860,Slide8253,Slide10758,Slide10811,Slide10881,Slide10954,Slide11003,Slide11076,Slide11705,Slide11778,Slide11851,Slide11924,Slide11989,Slide12062,Slide13083,Slide13668,Slide14233,Slide15082,Slide16067,Slide16140,Slide16577,Slide16621,Slide16665,Slide16716,Slide16789,Slide16833,Slide16884,Slide16957,Slide17382,Slide17630,Slide17681,Slide17725,Slide17776,Slide17849,Slide17922,Slide17995,Slide18068,Slide18141,Slide18214,Slide18287,Slide18360,Slide18433,Slide18506,Slide18579,Slide18652,Slide19105,Slide19546,Slide19619,Slide19692,Slide19765,Slide19838,Slide19911,Slide19984,Slide20057,Slide20130,Slide20203,Slide20276,Slide20349,Slide20422,Slide21303,Slide21720,Slide23489,Slide23592,Slide23665,Slide23738,Slide25387,Slide25460,Slide25533,Slide25606,Slide25679,Slide25752,Slide25825,Slide25898,Slide25971,Slide26044,Slide26117,Slide26190,Slide26263,Slide26336,Slide26380,Slide26431,Slide26504,Slide26577,Slide26650,Slide26723,Slide26789',
@@ -233352,21 +233352,14 @@ resources:['dr/026823.png']
 cp.model.audioresources=[{
 slideID:0,
 ResourceList:{
-resources:['ar/593.mp3','ar/Mouse.mp3']
-}
-
-}
-,{
-slideID:2,
-ResourceList:{
-resources:['ar/KeyClick.mp3']
+resources:['ar/593.mp3','ar/KeyClick.mp3','ar/Mouse.mp3']
 }
 
 }
 ,{
 slideID:104,
 ResourceList:{
-resources:['ar/StAd2.mp3']
+resources:['ar/StAd4.mp3']
 }
 
 }
@@ -233435,10 +233428,10 @@ cp.model.slideVideos=[
 cp.model.tocVideos=[
 ];
 cp.model.audios=[
-'ar/593.mp3',
-'ar/Mouse.mp3',
 'ar/KeyClick.mp3',
-'ar/StAd2.mp3'
+'ar/Mouse.mp3',
+'ar/593.mp3',
+'ar/StAd4.mp3'
 ];
 
 cp.initVariables = function(){
