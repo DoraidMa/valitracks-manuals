@@ -28,4 +28,4 @@ The module is exported from Adobe Captivate and must remain in its exact folder 
 
 ## 🌐 Public Access URL
 
-https://valitracks.io/the-how-to-manual/how_to_manage_workflow_pm/index.html
+https://manuals.valitracks.io/manuals/how_to_manage_workflow_pm/
