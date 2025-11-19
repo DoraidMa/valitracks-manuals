@@ -1,190 +1,131 @@
-# How to Prepare a Detailed Workflow (Full Guide)
+How to Prepare a Detailed Workflow (Full Guide)
 
-This document provides a complete, step-by-step guide on how to create, structure, and finalize a **Detailed Workflow** inside Valitracks.  
-A detailed workflow is the backbone of any linguistic-validation (LV) project. It aligns tasks, roles, deadlines, automation logic, and pricing structures, ensuring that all teams operate under a unified process.
+This folder contains the documentation and HTML output for the module How to Prepare a Detailed Workflow, used in the Valitracks training and manuals system. The guide explains how to create, configure, and publish a detailed workflow, including steps, roles, automation, and pricing.
 
----
+Folder Structure
 
-## 📌 1. Overview
+how_to_prepare_detailed_workflow_full/
 
-A **Detailed Workflow** consists of:
-- A sequence of LV steps (translation, reconciliation, cognitive debriefing, proofreading, etc.)
-- Assigned roles and permissions
-- Deadlines and durations per task
-- Pricing rules (if connected to external or internal pricing cards)
-- Automation triggers (notifications, dependencies)
-- Upload/download requirements
-- Quality-control steps
-- Optional branching or conditions
+index.html (compiled HTML used by manuals.valitracks.io)
 
-This guide explains how to prepare the full workflow so that it is ready to be used in real projects or in a POC setup.
+README.md (this file)
 
----
+assets/ (optional images or files)
 
-## 📌 2. Prerequisites
+Public HTML Link
 
-Before creating a detailed workflow, ensure the following:
+https://manuals.valitracks.io/how_to_prepare_detailed_workflow_full/
 
-1. **Company structure is set**  
-   - Team Leaders created  
-   - Project Managers assigned  
-   - Other users created or imported
+Iframe Embed Code
+<iframe src="https://manuals.valitracks.io/how_to_prepare_detailed_workflow_full/" width="100%" height="1200px" style="border:0; overflow:hidden;"></iframe>
+Overview
 
-2. **Languages and locations** have been added (source, target, locales).
+A Detailed Workflow defines the entire process of a linguistic-validation or translation project. It contains:
 
-3. **Pricing cards** (if used) are completed.
+The sequence of steps
 
-4. You have **Team Leader permissions** (required for workflow creation).
+Roles and permissions
 
----
+Task durations and dependencies
 
-## 📌 3. Starting a New Workflow
+Document rules and QC
 
-1. Navigate to:  
-   **Company Owner / Team Leader → Workflows → New Workflow**
+Notifications and automation
 
-2. Enter the required metadata:
-   - Workflow name  
-   - Description
-   - Category (LV, Translation-Only, Hybrid, etc.)
-   - Visibility (internal, external, or global)
+Optional pricing integration
 
-3. Choose whether the workflow will be:
-   - **Simple** (straight linear)
-   - **Advanced** (with branching, conditional steps, or complex dependencies)
+Prerequisites
 
----
+Before creating a Detailed Workflow:
 
-## 📌 4. Adding Steps to the Workflow
+Team Leaders and PMs must exist
 
-Each workflow contains multiple predefined or custom steps. To add a step:
+Languages and locations must be added
 
-1. Click **“Add Step”**
-2. Choose a step type:
-   - Translation
-   - Back Translation
-   - Reconciliation
-   - Proofreading
-   - Cognitive Debriefing
-   - Review/Approval
-   - Import/Export
-   - Custom step
+Pricing cards created (if needed)
 
-3. Define parameters for each step:
-   - **Step title**
-   - **Assigned role** (PM, Clinician, Interviewer, Reviewer, etc.)
-   - **Estimated duration**
-   - **Dependencies** (Steps that must be completed before this step starts)
-   - **Input/output files** required
-   - **Quality checks** (where applicable)
+User must be Company Owner / Team Leader
 
----
+Creating a New Workflow
 
-## 📌 5. Configuring Automation
+Go to Company Owner → Workflows → New Workflow
 
-Each step can have automation settings:
+Enter name, description, category, visibility
 
-- **Notifications**  
-  Triggered when:
-  - A step starts  
-  - A step ends  
-  - A file is uploaded  
-  - A due date is near or overdue
+Choose Simple or Advanced workflow
 
-- **Auto-assignment**  
-  Automatically assigns the next step to the correct user role based on project structure.
+Adding Workflow Steps
 
-- **Conditional routing**  
-  Optional advanced logic allowing:
-  - Additional QC steps only if errors > threshold  
-  - Branching depending on language or project type
+Each step includes:
 
----
+Step name
 
-## 📌 6. Mapping Pricing (Optional)
+Role assignment
 
-If external or internal pricing cards exist, they can be attached.
+Estimated duration
 
-1. Select **“Attach Pricing Card”**
-2. Choose:
-   - Simple Pricing  
-   - External Client Pricing  
-   - Internal Cost Card  
-3. The system automatically maps:
-   - Per service pricing  
-   - Language/location-specific adjustments  
-   - Volume-based or tiered rates  
+Dependencies
 
-Prices can be:
-- Locked to the workflow  
-- Variable depending on the client offer  
+Required inputs/outputs
 
----
+QC checks
 
-## 📌 7. Finalizing the Workflow
+Automation rules
 
-Before publishing the workflow:
+Common steps: Translation, Back Translation, Reconciliation, Cognitive Debriefing, Proofreading, Reviewer QC, Custom steps.
 
-### ✔ Review structure
-Ensure:
-- All steps are in logical order  
-- Durations are realistic  
-- No step is missing a role  
-- Dependencies are consistent  
-- Notifications are configured  
+Automation
 
-### ✔ Confirm permissions
-Check that:
-- Team Leaders have full visibility  
-- PMs have operational visibility  
-- Other users see only assigned steps  
+Automation can include:
 
-### ✔ Publish
-Click **Publish Workflow** to activate it.
+Notifications
 
-Once published:
-- It can be used in real projects  
-- It can be duplicated for future workflows  
-- It becomes available in “Simple Project Offer” connections (if desired)
+Auto-assignment
 
----
+Deadline reminders
 
-## 📌 8. Using the Workflow in a Project
+File-based triggers
 
-When creating a new project:
-1. Select **Use Existing Workflow**
-2. Choose your detailed workflow
-3. The system auto-generates:
-   - Tasks  
-   - Schedules  
-   - User assignments  
-   - Pricing (if attached)
+Conditional branching
 
-This ensures consistent delivery and eliminates manual setup.
+Pricing (Optional)
 
----
+If pricing is required:
 
-## 📌 9. Best Practices
+Attach a pricing card
 
-- Keep steps granular for maximum clarity  
-- Use clear naming conventions  
-- Attach pricing only when finalized  
-- Test the workflow using a demo project before real deployment  
-- Duplicate successful workflows for new client types  
-- Update workflows centrally so changes propagate organization-wide  
+Select internal/external
 
----
+System maps language and service rates
 
-## 📌 10. Support & Feedback
+Publishing the Workflow
 
-If you need help configuring complex workflows, conditional branches, or multi-team structures, contact:
+Before publishing, verify:
 
-**Valitracks Support**  
-support@valitracks.com  
-  
-Or message your assigned implementation manager.
+Step order
 
----
+Role assignment
 
-**© Valitracks — Workflow Preparation Guide (Full Version)**
+Dependencies
 
+Notifications
+
+Pricing mapping
+Then click Publish Workflow.
+
+Using the Workflow in Projects
+
+When creating a project:
+
+Select Use Existing Workflow
+
+Choose this workflow
+
+System generates tasks, assignments, durations, pricing
+
+Support
+
+For assistance:
+info@valitracks.com
+
+© Valitracks — Detailed Workflow Module
