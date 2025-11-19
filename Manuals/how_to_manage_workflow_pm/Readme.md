@@ -5,27 +5,36 @@ This folder contains the full Captivate HTML5 training module for:
 
 **“How to Manage the Workflow, Invite Users, Contracting & Financials”**
 
-The module is exported from Adobe Captivate and must remain in its exact folder structure.
+This module explains how project managers operate workflows inside Valitracks, including environment generation, user assignment, contracting, quotation requests, purchase orders, and full financial flow management.
 
 ---
 
-## 📁 Contents
+## 🌐 Public Page
 
-- `index.html` — Main entry file  
-- `assets/` — Media, scripts, styles  
-- `ar/` — Captivate core libraries  
-- `dist/` — Distribution assets  
-- `dr/` — Data resources  
-- `callees/` — Internal components  
-- `pools/` — Preloading pools  
-- `vr/` — Layout & responsive resources  
-- `goodbye.html` — Module exit page  
-- `project.txt` — Metadata file  
+The module is available at:
 
-⚠️ Do not rename, move, or remove any files or folders.
+https://manuals.valitracks.io/Manuals/how_to_manage_workflow_pm/
+
+lua
+Copy code
+
+You can also load the entry file directly:
+
+https://manuals.valitracks.io/Manuals/how_to_manage_workflow_pm/index.html
+
+yaml
+Copy code
 
 ---
 
-## 🌐 Public Access URL
+## 📌 Embed Code (iframe)
 
-https://manuals.valitracks.io/manuals/how_to_manage_workflow_pm/
+To embed the module inside a webpage or the Valitracks Help Center:
+
+```html
+<iframe 
+    src="https://manuals.valitracks.io/Manuals/how_to_manage_workflow_pm/" 
+    width="100%" 
+    height="1200px" 
+    style="border:0; overflow:hidden;">
+</iframe>
